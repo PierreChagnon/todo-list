@@ -1,0 +1,34 @@
+.searchbutton-container {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+.searchbutton {
+    background-color: #F2C94C;
+    border: none;
+    width: 156px;
+    height: 56px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbutton:hover {
+    cursor: pointer;
+    background-color: #c5a33f;
+}
+
+.searchbutton:active {
+    background-color: #91782e;
+}
+
+input:focus {
+    outline: none;
+}

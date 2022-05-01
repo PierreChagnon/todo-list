@@ -1,0 +1,7 @@
+.searchbar-container {
+    display: flex;
+    height: 84px;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}

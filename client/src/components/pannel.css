@@ -1,0 +1,120 @@
+.pannel-container {
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+}
+
+.table-header {
+    width: 70%;
+    display: flex;
+    border-bottom: solid black 1px;
+    padding: 25px;
+}
+
+.table-body {
+    width: 70%;
+    padding: 25px;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.col-title {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.line-container {
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.cell {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-input {
+    border: none;
+}
+
+.status {
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.icons-container {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    padding: 25px;
+    width: 70%;
+}
+
+.addbutton-container {
+    display: flex;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.addbutton-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.addbutton-icon:after {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 5px;
+    width: 20px;
+    background: #686868;
+    top: 50%;
+    left: 50%;
+}
+
+.addbutton-icon:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #686868;
+    height: 20px;
+    width: 5px;
+}
+
+.addbutton-text {
+    margin-left: 10px;
+    color: #686868;
+    font-size: 14px;
+}
+
+.remove {
+    cursor: pointer;
+    transform: rotate(45deg);
+}
+
+.edit {
+    cursor: pointer;
+}
