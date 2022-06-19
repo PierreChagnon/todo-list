@@ -1,5 +1,5 @@
 # todo-list
-todo app in react and golang
+todo app pratice project in react and golang
 
 # to do :
 - manage todoes updates with golang back-end server
