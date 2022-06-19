@@ -6,6 +6,6 @@ todo app in react and golang
 
 # initialize
 
-### `cd src`
+### `cd client`
 ### `npm install`
 ### `npm start`
