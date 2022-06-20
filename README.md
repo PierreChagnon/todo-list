@@ -6,6 +6,7 @@ todo app pratice project in react and golang
 
 # initialize
 
+### `cd todo-list`
 ### `cd client`
 ### `npm install`
 ### `npm start`
